@@ -3,16 +3,31 @@
 <!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" itemscope itemtype="http://schema.org/"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <title>EasyBCD - Take control of your boot loader | NeoSmart Technologies</title>
+  <link rel="canonical" href="http://neosmart.net/EasyBCD/">
   <link rel="stylesheet" media="screen" href="c/style.css?v=1">
   <link rel="stylesheet" media="print" href="c/print.css?v=1">
   <link rel="icon" href="i/favicon.png">
 </head>
 
-<body>
+<body itemscope itemtype="http://schema.org/SoftwareApplication">
+
+<link itemprop="image" href="i/EasyBCD.png">
+<link itemprop="url" href="http://neosmart.net/EasyBCD/">
+<meta itemprop="softwareApplicationCategory" content="UtilitiesApplication">
+<div itemprop="author" itemscope itemtype="http://schema.org/Organization">
+  <meta itemprop="name" content="NeoSmart Technologies" />
+  <link itemprop="url" href="http://neosmart.net/" />
+</div>
+<div itemprop="screenshots" itemscope itemtype="http://schema.org/ImageObject">
+  <meta itemprop="name" content="EasyBCD Screenshot">
+  <meta itemprop="description" content="EasyBCD's screen showing installed entries.">
+  <link itemprop="image" href="i/window-full.png">
+</div>
+
 <div class="header site">
   <div class="nav">
     <ul>
@@ -30,7 +45,7 @@
     <div class="product">
       <a href="#">
         <img class="icon" alt="EasyBCD icon" src="i/favicon.png" width="24" height="24">
-        <div class="name">EasyBCD</div>
+        <div class="name" itemprop="name">EasyBCD</div>
       </a>
     </div>
     <ul>
@@ -45,7 +60,7 @@
   <div class="section intro">
     <div class="header"><h1>Take control of your boot loader.</h1></div>
     <div class="content">
-      <p class="intro">EasyBCD supercharges your Windows PC, allowing you to dual-boot to your heart's content.</p>
+      <p class="intro" itemprop="description">EasyBCD supercharges your Windows PC, allowing you to dual-boot to your heart's content.</p>
       <a id="app-preview"><img alt="EasyBCD application" src="i/window.png" width="320" height="320"></a>
     </div>
     <div class="footer">
@@ -76,7 +91,7 @@
   <div class="section benefits">
     <div class="header"><h2>A breeze to use. Filled with benefits.</h2></div>
     <div class="content">
-      <ul>
+      <ul itemprop="providedFeatures">
         <li>
           <h3>Boot anything.</h3>
           <p>Boot both from and into USB drives, ISO images, virtual disks, and more.
@@ -115,7 +130,8 @@
           </div>
         <li class="commercial solution">
           <div class="data">
-            <h3>Commercial <span class="price">$24.95</span></h3>
+            <h3>Commercial <span class="price" itemprop="price">$24.95</span></h3>
+            <meta itemprop="priceCurrency" content="USD">
             <ul class="features">
               <li><strong>Documentation</strong> and instructions
               <li><strong>Priority</strong> technical support
