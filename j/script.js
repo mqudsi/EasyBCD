@@ -10,6 +10,9 @@ window.fbAsyncInit = function()
 			SwapLikes(response);
 		}
 	);
+	
+	$('#fb2').find('iframe').attr('src', $('#fb2').find('iframe').attr('src').replace('300px', '96px'));
+	$('#fb2').find('iframe').css('width', '96');
 };
 		
 function SwapLikes(likedUrl)
