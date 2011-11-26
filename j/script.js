@@ -10,9 +10,6 @@ window.fbAsyncInit = function()
 			SwapLikes(response);
 		}
 	);
-	
-	$('#fb2').find('iframe').attr('src', $('#fb2').find('iframe').attr('src').replace('300px', '96px'));
-	$('#fb2').find('iframe').css('width', '96');
 };
 		
 function SwapLikes(likedUrl)
@@ -20,7 +17,8 @@ function SwapLikes(likedUrl)
 	if(likedUrl == 'http://neosmart.net/EasyBCD/')
 	{
 		$('#fb1').css('display', 'none');
-		$('#fb2').css('display', '').css('margin-right', '15px');
+		$('#fb2').css('display', '');
+		$('#fb2').find('iframe').css('width', '96');
 	}
 }
 
