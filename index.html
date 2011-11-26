@@ -84,7 +84,8 @@
 <ul class="social">
   <li><div class="g-plusone" data-size="medium" data-href="http://neosmart.net/EasyBCD/"></div>
   <li class="tw"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://neosmart.net/EasyBCD/" data-count="horizontal" data-via="neosmart">Tweet</a>
-  <li class="fb" ><div class="fb-like" data-href="http://neosmart.net/EasyBCD/" data-send="false" data-layout="button_count" data-width="96" data-show-faces="false"></div>
+  <li class="fb" id="fb1"><fb:like href="http://neosmart.net/EasyBCD/" send="false" layout="button_count" show_faces="false"></fb:like></div>
+  <li class="fb" id="fb2"><fb:like href="https://facebook.com/NeoSmart" send="false" layout="button_count" show_faces="false"></fb:like></div>
 </ul>
 </div>
 
@@ -186,6 +187,7 @@
 <script src="j/jquery.min.js"></script>
 <script src="j/modernizr.min.js"></script>
 <script src="j/script.js"></script>
+<script src
 
 <script type="text/javascript">
  (function() {
@@ -198,11 +200,12 @@ s.parentNode.insertBefore(po, s);
 </script>
 
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
+<script type="text/javascript">(function(d, s, id) {
  var js, fjs = d.getElementsByTagName(s)[0];
  if (d.getElementById(id)) {return;}
  js = d.createElement(s); js.id = id;
  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
  fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
 <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
