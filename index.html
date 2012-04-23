@@ -8,9 +8,21 @@
   <meta charset="utf-8">
   <title>EasyBCD - Take control of your boot loader | NeoSmart Technologies</title>
   <link rel="canonical" href="http://neosmart.net/EasyBCD/">
-  <link rel="stylesheet" media="screen" href="c/style.css?v=1">
-  <link rel="stylesheet" media="print" href="c/print.css?v=1">
+  <link rel="stylesheet" media="screen" href="c/style.css">
+  <link rel="stylesheet" media="print" href="c/print.css">
   <link rel="icon" href="i/favicon.png">
+
+  <script type="text/javascript">
+    var jQl={q:[],dq:[],ready:function(a){typeof a=="function"&&jQl.q.push(a);return jQl},unq:function(){for(var a=0;a<jQl.q.length;a++)jQl.q[a]();jQl.q=[]},bId:null,boot:function(a){if(typeof window.jQuery.fn=="undefined"){if(!jQl.bId)jQl.bId=setInterval(function(){jQl.boot(a)},25)}else{jQl.bId&&clearInterval(jQl.bId);jQl.bId=0;jQl.unqjQdep();$(jQl.unq());typeof a=="function"&&a()}},booted:function(){return jQl.bId===0},loadjQ:function(a,c){setTimeout(function(){var b=document.createElement("script"); b.src=a;document.getElementsByTagName("head")[0].appendChild(b)},1);jQl.boot(c)},loadjQdep:function(a){jQl.loadxhr(a,jQl.qdep)},qdep:function(a){if(a)typeof window.jQuery.fn!=="undefined"&&!jQl.dq.length?jQl.rs(a):jQl.dq.push(a)},unqjQdep:function(){if(typeof window.jQuery.fn=="undefined")setTimeout(jQl.unqjQdep,50);else{for(var a=0;a<jQl.dq.length;a++)jQl.rs(jQl.dq[a]);jQl.dq=[]}},rs:function(a){var c=document.createElement("script");document.getElementsByTagName("head")[0].appendChild(c);c.text= a},loadxhr:function(a,c){var b;b=jQl.getxo();b.onreadystatechange=function(){b.readyState!=4||200!=b.status||c(b.responseText,a)};try{b.open("GET",a,true);b.send("")}catch(d){}},getxo:function(){var a=false;try{a=new XMLHttpRequest}catch(c){for(var b=["MSXML2.XMLHTTP.5.0","MSXML2.XMLHTTP.4.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsoft.XMLHTTP"],d=0;d<b.length;++d){try{a=new ActiveXObject(b[d])}catch(e){continue}break}}finally{return a}}}; if(typeof window.jQuery=="undefined")var $=jQl.ready,jQuery=$;
+    jQl.loadjQ("//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js");
+
+    $(document).ready(function(){
+      $.getScript("j/modernizr.min.js");
+      $.getScript("j/script.js");
+      $.getScript("//platform.twitter.com/widgets.js");
+    });
+  </script>
+
 </head>
 
 <body itemscope itemtype="http://schema.org/SoftwareApplication">
@@ -184,10 +196,6 @@
 
 <div class="popup"><img alt="EasyBCD application" src="i/window-full.png"></div>
 
-<script src="j/jquery.min.js"></script>
-<script src="j/modernizr.min.js"></script>
-<script src="j/script.js"></script>
-
 <script type="text/javascript">
  (function() {
    var po = document.createElement('script'); po.type =
@@ -206,5 +214,3 @@ s.parentNode.insertBefore(po, s);
  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
  fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-
-<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
