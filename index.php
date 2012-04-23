@@ -119,14 +119,14 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
           <h3>Boot anywhere.</h3>
           <p>Create bootable USB sticks with repair utilities that you can take with you anywhere.
         <li>
+          <h3>Protect against disaster.</h3>
+          <p>Create entries to boot into recovery utilities or safe mode to prepare for a rainy day.
+        <li>
           <h3>Painless editing.</h3>
           <p>Add, rename, remove, configure, and reorder entries at whim.
         <li>
-          <h3>Safe mode support.</h3>
-          <p>Create safe mode entries for Windows to prepare for a rainy day.
-        <li>
           <h3>Solve difficut problems.</h3>
-          <p>Use EasyBCD to fix corrupted bootloaders and repair your non-booting PC.
+          <p>Use EasyBCD to troubleshoot Windows, back up and repair the bootloader, and more.
         <li>
           <h3>Powerful scripting with NeoGrub</h3>
           <p>You'll have the power to hide partitions, change active flags, and create complex boot scenarios.
@@ -135,16 +135,16 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
   </div>
 
   <div class="section comparison" id="comparison">
-    <div class="header"><h2>Select the best product for your needs.</h2></div>
+    <div class="header"><h2>Select the best solution for your needs.</h2></div>
     <div class="content">
       <ul>
         <li class="free solution">
           <div class="data">
             <h3>Non-commercial <span class="price">Free</span></h3>
             <ul class="features">
-              <li><strong>Limited</strong> technical support
+              <li><strong>Limited</strong>, community support
               <li><strong>No</strong> early access to new features
-              <li><strong>Personal</strong>, non-commercial use only
+              <li>Only for <strong>personal, non-commercial</strong> use
             </ul>
             <a class="cta-button" href="http://neosmart.net/download.php?id=1">Download</a>
           </div>
@@ -153,9 +153,9 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
             <h3>Commercial <span class="price" itemprop="price">$24.95</span></h3>
             <meta itemprop="priceCurrency" content="USD">
             <ul class="features">
-              <li><strong>Documentation</strong> and instructions
+              <li>Detailed <strong>PDF instruction manual</strong>
               <li><strong>Priority</strong> technical support
-              <li><strong>Early access</strong> to new releases
+              <li>Early access to <strong>new releases</strong>
               <li><strong>Bootable</strong> repair &amp; recovery CD <small><em>(coming soon!)</em></small>
             </ul>
             <a class="cta-button" href="http://neosmart.net/store/">Buy Now</a>
@@ -165,9 +165,9 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
             <h3>Custom Solutions</h3>
             <ul class="features">
               <li><strong>Need more?</strong> Are you seeking a customized boot solution for your company or product? 
-              <li><strong>Get in touch</strong>, and we'll help you achieve your goals
+              <li><strong>Get in touch</strong>, and we'll help you achieve your goals (consulting or development)
             </ul>
-            <a class="cta-button" href="mailto:sales@neosmart.net">Contact</a>
+            <a class="cta-button" href="mailto:neosmart@neosmart.net">Contact</a>
           </div>
       </ul>
     </div>
