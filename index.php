@@ -102,7 +102,7 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 
 <ul class="social">
   <li><div class="g-plusone" data-size="medium" data-href="http://neosmart.net/EasyBCD/"></div>
-  <li class="tw"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://neosmart.net/EasyBCD/" data-count="horizontal" data-via="neosmart">Tweet</a>
+  <li class="tw"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://neosmart.net/EasyBCD/" data-count="horizontal" data-via="neosmart"></a>
   <li class="fb" id="fb1"><div class="fb-like" data-href="http://neosmart.net/EasyBCD/" data-send="false" data-layout="button_count" data-width="96" data-show-faces="false"></div>
   <li class="fb" id="fb2"><div class="fb-like" data-href="https://facebook.com/NeoSmart" data-send="false" data-layout="button_count" data-width="96" data-show-faces="false"></div>
 </ul>
