@@ -16,7 +16,6 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 	<title>EasyBCD - Take control of your boot loader | NeoSmart Technologies</title>
 	<link rel="canonical" href="http://neosmart.net/EasyBCD/">
 	<link rel="stylesheet" media="screen" href="c/style.css">
-	<link rel="stylesheet" media="print" href="c/print.css">
 	<link rel="icon" href="i/favicon.png">
 
 	<script type="text/javascript">
