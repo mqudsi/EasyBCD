@@ -23,6 +23,9 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 		jQl.loadjQ("//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js");
 
 		$(document).ready(function(){
+			$.ajaxSetup({
+				cache: true
+			});
 			$.getScript("j/modernizr.min.js");
 			$.getScript("j/script.js");
 			$.getScript("//platform.twitter.com/widgets.js");
