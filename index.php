@@ -141,7 +141,7 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 					<h3>Painless editing.</h3>
 					<p>Add, rename, remove, configure, and reorder entries at whim.
 				<li>
-					<h3>Solve difficut problems.</h3>
+					<h3>Solve difficult problems.</h3>
 					<p>Use EasyBCD to troubleshoot Windows, back up and repair the bootloader, and more.
 				<li>
 					<h3>Powerful scripting with NeoGrub</h3>
