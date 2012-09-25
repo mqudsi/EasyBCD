@@ -31,19 +31,19 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 			$.getScript("//platform.twitter.com/widgets.js");
 		});
 	</script>
-	<script type="text/javascript">	
+	<script type="text/javascript">
 	  var _gaq = _gaq || [];
 	  _gaq.push(['_setAccount', 'UA-277958-1']);
 	  _gaq.push(['_setDomainName', 'neosmart.net']);
 	  _gaq.push(['_setAllowLinker', true]);
 	  _gaq.push(['_setAllowHash', 'false']);
 	  _gaq.push(['_trackPageview']);
-	
+
 	  (function() {
 		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();	
+	  })();
 	</script>
 
 </head>
@@ -85,7 +85,7 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 		</div>
 		<ul>
 			<li><a href="http://neosmart.net/changelog.php?id=1">Changelog</a>
-			<li><a href="http://neosmart.net/gallery/album/view/neosmart/EasyBCD/EasyBCD+2.0/">Screenshots</a>
+			<li><a href="http://neosmart.net/gallery/album/view/neosmart/EasyBCD/EasyBCD+2.2/">Screenshots</a>
 			<li><a href="http://neosmart.net/wiki/display/EBCD/EasyBCD+Documentation+Home">Documentation</a>
 		</ul>
 	</div>
@@ -180,7 +180,7 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 					<div class="data">
 						<h3>Custom Solutions</h3>
 						<ul class="features">
-							<li><strong>Need more?</strong> Are you seeking a customized boot solution for your company or product? 
+							<li><strong>Need more?</strong> Are you seeking a customized boot solution for your company or product?
 							<li><strong>Get in touch</strong>, and we'll help you achieve your goals (consulting or development)
 						</ul>
 						<a class="cta-button" href="mailto:neosmart@neosmart.net">Contact</a>
