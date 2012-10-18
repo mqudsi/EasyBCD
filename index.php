@@ -130,7 +130,7 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 			<ul itemprop="providedFeatures">
 				<li>
 					<h3>Boot anything.</h3>
-					<p>Boot both from and into USB drives, ISO images, virtual disks, and more.
+					<p>Windows, Linux, Mac, &amp; BSD! Boot both from and into USB drives, ISO images, virtual disks, and more.
 				<li>
 					<h3>Boot anywhere.</h3>
 					<p>Create bootable USB sticks with repair utilities that you can take with you anywhere.
@@ -169,16 +169,16 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 						<h3>Commercial <span class="price" itemprop="price">$24.95</span></h3>
 						<meta itemprop="priceCurrency" content="USD">
 						<ul class="features">
-							<li>Detailed <strong>PDF instruction manual</strong>
 							<li><strong>Priority</strong> technical support
-							<li>Early access to <strong>new releases</strong>
+							<li>Detailed <strong>PDF instruction manual</strong>
+							<li>Automatic upgrades to <strong>new releases</strong>
 							<li><strong>Bootable</strong> repair &amp; recovery CD <small><em>(coming soon!)</em></small>
 						</ul>
 						<a class="cta-button" href="http://neosmart.net/store/">Buy Now</a>
 					</div>
 				<li class="custom solution">
 					<div class="data">
-						<h3>Custom Solutions</h3>
+						<h3>OEM &amp; ISV Solutions</h3>
 						<ul class="features">
 							<li><strong>Need more?</strong> Are you seeking a customized boot solution for your company or product?
 							<li><strong>Get in touch</strong>, and we'll help you achieve your goals (consulting or development)
