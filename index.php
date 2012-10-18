@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+<?php
+if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
+{
+	header("HTTP/1.0 301 Resource Moved");
+	header("Location: http://neosmart.net/EasyBCD/");
+	exit();
+}
+?><!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="ie6" itemscope itemtype="http://schema.org/"> <![endif]-->
 <!--[if IE 7 ]> <html lang="en" class="ie7" itemscope itemtype="http://schema.org/"> <![endif]-->
 <!--[if IE 8 ]> <html lang="en" class="ie8" itemscope itemtype="http://schema.org/"> <![endif]-->
