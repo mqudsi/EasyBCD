@@ -140,4 +140,9 @@ form ul.fields li.field input{width:320px;float:left;-webkit-box-sizing:;-moz-bo
 .ie9 .popup.visible,.ie8 .popup.visible{display:block}
 abbr[title], acronym[title] {
      border-bottom: dotted 1px;
-   }
+}
+ul.social img {
+	height: 20px;
+	width: auto;
+	padding-right: 8px;
+}

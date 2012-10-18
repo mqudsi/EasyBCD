@@ -1,11 +1,4 @@
-<?php
-if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
-{
-	header("HTTP/1.0 301 Resource Moved");
-	header("Location: http://neosmart.net/EasyBCD/");
-	exit();
-}
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="ie6" itemscope itemtype="http://schema.org/"> <![endif]-->
 <!--[if IE 7 ]> <html lang="en" class="ie7" itemscope itemtype="http://schema.org/"> <![endif]-->
 <!--[if IE 8 ]> <html lang="en" class="ie8" itemscope itemtype="http://schema.org/"> <![endif]-->
@@ -33,6 +26,12 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 			$.getScript("j/script.js");
 			$.getScript("//platform.twitter.com/widgets.js");
 		});
+	</script>
+	<script type="text/javascript">
+		function ShareWindow(url) {
+			var myWindow = window.open(url,'','width=600,height=300');
+			myWindow.focus();
+		}
 	</script>
 	<script type="text/javascript">
 	  var _gaq = _gaq || [];
@@ -120,10 +119,9 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 		</div>
 
 <ul class="social">
-	<li><div class="g-plusone" data-size="medium" data-href="http://neosmart.net/EasyBCD/"></div>
-	<li class="tw"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://neosmart.net/EasyBCD/" data-count="horizontal" data-via="neosmart"></a>
-	<li class="fb" id="fb1"><div class="fb-like" data-href="http://neosmart.net/EasyBCD/" data-send="false" data-layout="button_count" data-width="96" data-show-faces="false"></div>
-	<li class="fb" id="fb2"><div class="fb-like" data-href="https://facebook.com/NeoSmart" data-send="false" data-layout="button_count" data-width="96" data-show-faces="false"></div>
+	<li><a href="javascript:ShareWindow('https://plusone.google.com/_/+1/confirm?hl=en&url=http%3A%2F%2Fneosmart.net%2FEasyBCD%2F');"><img class="retina" src="i/social/scaled/gplus.png" /></a>
+	<li><a href="javascript:ShareWindow('http://twitter.com/share?url=http%3A%2F%2Fneosmart.net%2FEasyBCD%2F')"><img class="retina" src="i/social/scaled/tweet.png" /></a>
+	<li><a href="javascript:ShareWindow('http://www.facebook.com/sharer.php?u=http%3A%2F%2Fneosmart.net%2FEasyBCD%2F')"><img class="retina" src="i/social/scaled/facebook.png" /></a>
 </ul>
 </div>
 
@@ -221,25 +219,3 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 </div>
 
 <div class="popup"><img alt="EasyBCD application" src="i/window-full.png"></div>
-
-<script type="text/javascript">
- (function() {
-	 var po = document.createElement('script'); po.type =
-'text/javascript'; po.async = true;
-	 po.src = '//apis.google.com/js/plusone.js';
-	 var s = document.getElementsByTagName('script')[0];
-s.parentNode.insertBefore(po, s);
- })();
-</script>
-
-<div id="fb-root"></div>
-<script type="text/javascript">
-	(function(d, s, id) {
-	 var js, fjs = d.getElementsByTagName(s)[0];
-	 if (d.getElementById(id)) {return;}
-	 js = d.createElement(s); js.id = id;
-	 js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-	 js.async = true;
-	 fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));
-</script>
