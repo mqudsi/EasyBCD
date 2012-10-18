@@ -108,7 +108,7 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 		<div class="header"><h2>Dual-boot with anything you could want.</h2></div>
 		<div class="content">
 			<ul class="os">
-				<li class="win"><img src="i/os/scaled/win.png" alt="Windows 7, Windows Vista, Windows XP, Windows 2003" title="Windows 7, Windows Vista, Windows XP, Windows 2003">
+				<li class="win"><img src="i/os/scaled/win8.png" alt="Windows 7, Windows Vista, Windows XP, Windows 2003" title="Windows 8, Windows 7, Windows Vista, Windows XP, Windows 2003">
 				<li class="osx"><img src="i/os/scaled/apple.png" alt="Mac OS X" title="Mac OS X">
 				<li class="linux"><img src="i/os/scaled/linux.png" alt="Linux" title="Linux">
 				<li class="bsd"><img src="i/os/scaled/bsd.png" alt="BSD" title="BSD">
