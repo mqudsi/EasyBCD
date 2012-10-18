@@ -31,7 +31,6 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 			});
 			$.getScript("j/modernizr.min.js");
 			$.getScript("j/script.js");
-			$.getScript("//platform.twitter.com/widgets.js");
 		});
 	</script>
 	<script type="text/javascript">
@@ -126,9 +125,9 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 		</div>
 
 <ul class="social">
-	<li><a href="javascript:ShareWindow('https://plusone.google.com/_/+1/confirm?hl=en&url=http%3A%2F%2Fneosmart.net%2FEasyBCD%2F');"><img class="retina" src="i/social/scaled/gplus.png" /></a>
-	<li><a href="javascript:ShareWindow('http://twitter.com/share?url=http%3A%2F%2Fneosmart.net%2FEasyBCD%2F')"><img class="retina" src="i/social/scaled/tweet.png" /></a>
-	<li><a href="javascript:ShareWindow('http://www.facebook.com/sharer.php?u=http%3A%2F%2Fneosmart.net%2FEasyBCD%2F')"><img class="retina" src="i/social/scaled/facebook.png" /></a>
+	<li><a href="javascript:ShareWindow('https://plusone.google.com/_/+1/confirm?hl=en&amp;url=http%3A%2F%2Fneosmart.net%2FEasyBCD%2F');"><img class="retina" alt="Share on Google Plus!" src="i/social/scaled/gplus.png" /></a>
+	<li><a href="javascript:ShareWindow('http://twitter.com/share?url=http%3A%2F%2Fneosmart.net%2FEasyBCD%2F&amp;via=neosmart&amp;url=http%3A%2F%2Fj.mp%2FEasyBCD&amp;text=I\'m%20taking%20control%20of%20my%20bootloader%20with%20EasyBCD')"><img class="retina" alt="Share on Twitter!" src="i/social/scaled/tweet.png" /></a>
+	<li><a href="javascript:ShareWindow('http://www.facebook.com/sharer.php?u=http%3A%2F%2Fneosmart.net%2FEasyBCD%2F')"><img class="retina" alt="Like on Facebook!" src="i/social/scaled/facebook.png" /></a>
 </ul>
 </div>
 
