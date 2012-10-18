@@ -138,3 +138,6 @@ form ul.fields li.field input{width:320px;float:left;-webkit-box-sizing:;-moz-bo
 .popup.visible{display:block}
 }.ie9 .popup,.ie8 .popup{display:none;}
 .ie9 .popup.visible,.ie8 .popup.visible{display:block}
+abbr[title], acronym[title] {
+     border-bottom: dotted 1px;
+   }

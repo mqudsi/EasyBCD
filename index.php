@@ -172,7 +172,7 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 							<li><strong>Priority</strong> technical support
 							<li>Detailed <strong>PDF instruction manual</strong>
 							<li>Automatic upgrades to <strong>new releases</strong>
-							<li><strong>Bootable</strong> repair &amp; recovery CD <small><em>(coming soon!)</em></small>
+							<li><strong>Bootable</strong> repair &amp; recovery CD <small><em>(<abbr title="Buy now, and get it free when it ships!">coming soon!</abbr>)</em></small>
 						</ul>
 						<a class="cta-button" href="http://neosmart.net/store/">Buy Now</a>
 					</div>
