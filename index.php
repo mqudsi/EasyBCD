@@ -169,7 +169,7 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 							<li><strong>No</strong> early access to new features
 							<li>Only for <strong>personal, non-commercial</strong> use
 						</ul>
-						<a class="cta-button" href="http://neosmart.net/download.php?id=1">Register</a>
+						<a class="cta-button" href="http://neosmart.net/Download/Register/1">Register</a>
 					</div>
 				<li class="commercial solution">
 					<div class="data">
