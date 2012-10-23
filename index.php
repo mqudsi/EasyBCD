@@ -125,9 +125,7 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 		</div>
 
 <ul class="social">
-	<li><a href="javascript:ShareWindow('https://plusone.google.com/_/+1/confirm?hl=en&amp;url=http%3A%2F%2Fneosmart.net%2FEasyBCD%2F');"><img class="retina" alt="Share on Google Plus!" src="i/social/scaled/gplus.png" /></a>
-	<li><a href="javascript:ShareWindow('http://twitter.com/share?url=http%3A%2F%2Fneosmart.net%2FEasyBCD%2F&amp;via=neosmart&amp;url=http%3A%2F%2Fj.mp%2FEasyBCD&amp;text=I\'m%20taking%20control%20of%20my%20bootloader%20with%20EasyBCD')"><img class="retina" alt="Share on Twitter!" src="i/social/scaled/tweet.png" /></a>
-	<li><a href="javascript:ShareWindow('http://www.facebook.com/sharer.php?u=http%3A%2F%2Fneosmart.net%2FEasyBCD%2F')"><img class="retina" alt="Like on Facebook!" src="i/social/scaled/facebook.png" /></a>
+	<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fneosmart&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=35&amp;appId=255412261182477" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe>
 </ul>
 </div>
 
