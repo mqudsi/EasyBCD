@@ -58,168 +58,176 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 
 <body itemscope itemtype="http://schema.org/SoftwareApplication">
 
-<link itemprop="image" href="i/EasyBCD.png">
-<link itemprop="url" href="http://neosmart.net/EasyBCD/">
-<meta itemprop="softwareApplicationCategory" content="UtilitiesApplication">
-<div itemprop="author" itemscope itemtype="http://schema.org/Organization">
-	<meta itemprop="name" content="NeoSmart Technologies" />
-	<link itemprop="url" href="http://neosmart.net/" />
-</div>
-<div itemprop="screenshots" itemscope itemtype="http://schema.org/ImageObject">
-	<meta itemprop="name" content="EasyBCD Screenshot">
-	<meta itemprop="description" content="EasyBCD's screen showing installed entries.">
-	<link itemprop="image" href="i/window-full.png">
-</div>
+    <meta property="og:title" content="EasyBCD"/>
+    <meta property="og:type" content="product"/>
+    <meta property="og:url" content="http://neosmart.net/EasyBCD/"/>
+    <meta property="og:image" content="http://neosmart.net/images/logos/EasyBCD%20256x256.png"/>
+    <meta property="og:site_name" content="NeoSmart Technologies"/>
+    <meta property="fb:admins" content="505172047"/>
+    <meta property="fb:app_id" content="255412261182477"/>
 
-<div class="header site">
-	<div class="nav">
-		<ul>
-			<li class="branding"><a href="#">NeoSmart Technologies</a>
-			<li><a href="http://neosmart.net/blog/">Blog</a>
-			<li><a href="http://neosmart.net/wiki/">User Guide</a>
-			<li><a href="http://neosmart.net/forums/">Forums</a>
-			<li><a href="http://neosmart.net/store/">Buy Now</a>
-		</ul>
+	<link itemprop="image" href="i/EasyBCD.png">
+	<link itemprop="url" href="http://neosmart.net/EasyBCD/">
+	<meta itemprop="softwareApplicationCategory" content="UtilitiesApplication">
+	<div itemprop="author" itemscope itemtype="http://schema.org/Organization">
+		<meta itemprop="name" content="NeoSmart Technologies" />
+		<link itemprop="url" href="http://neosmart.net/" />
 	</div>
-</div>
-
-<div class="subheader">
-	<div class="nav">
-		<div class="product">
-			<a href="#">
-				<img class="icon retina" alt="EasyBCD icon" src="i/favicon.png" width="24" height="24">
-				<div class="name" itemprop="name">EasyBCD</div>
-			</a>
-		</div>
-		<ul>
-			<li><a href="http://neosmart.net/Changelog/1">Changelog</a>
-			<li><a href="http://neosmart.net/gallery/album/view/neosmart/EasyBCD/EasyBCD+2.2/">Screenshots</a>
-			<li><a href="http://neosmart.net/wiki/display/EBCD/EasyBCD+Documentation+Home">Documentation</a>
-		</ul>
-	</div>
-</div>
-
-<div id="container">
-	<div class="section intro">
-		<div class="header"><h1>Take control of your boot loader.</h1></div>
-		<div class="content">
-			<p class="intro" itemprop="description">EasyBCD supercharges your Windows PC, allowing you to dual-boot to your heart's content.</p>
-			<a id="app-preview"><img alt="EasyBCD application" src="i/window.png" width="320" height="320"></a>
-		</div>
-		<div class="footer">
-			<a class="cta-button" href="http://neosmart.net/Store">Buy Now</a>
-			<a class="cta-button" href="#comparison" id="goto-comparison">See Plans</a>
-		</div>
+	<div itemprop="screenshots" itemscope itemtype="http://schema.org/ImageObject">
+		<meta itemprop="name" content="EasyBCD Screenshot">
+		<meta itemprop="description" content="EasyBCD's screen showing installed entries.">
+		<link itemprop="image" href="i/window-full.png">
 	</div>
 
-	<div class="section support">
-		<div class="header"><h2>Dual-boot with anything you could want.</h2></div>
-		<div class="content">
-			<ul class="os">
-				<li class="win"><img class="retina" src="i/os/scaled/win8.png" alt="Windows 8, Windows 7, Windows Vista, Windows XP, Windows 2003" title="Windows 8, Windows 7, Windows Vista, Windows XP, Windows 2003">
-				<li class="osx"><img class="retina" src="i/os/scaled/apple.png" alt="Mac OS X" title="Mac OS X">
-				<li class="linux"><img class="retina" src="i/os/scaled/linux.png" alt="Linux" title="Linux">
-				<li class="bsd"><img class="retina" src="i/os/scaled/bsd.png" alt="BSD" title="BSD">
-			</ul>
-			<p class="legacy">Also boot into <strong>legacy systems</strong> Microsoft doesn't support: MS-DOS, Windows 9x, Windows ME, and Windows 2000!
-		</div>
-
-<ul class="social">
-	<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fneosmart&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=35&amp;appId=255412261182477" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe>
-</ul>
-</div>
-
-	<div class="section benefits">
-		<div class="header"><h2>A breeze to use. Filled with benefits.</h2></div>
-		<div class="content">
-			<ul itemprop="providedFeatures">
-				<li>
-					<h3>Boot anything.</h3>
-					<p>Windows, Linux, Mac, &amp; BSD! Boot both from and into USB drives, ISO images, virtual disks, and more.
-				<li>
-					<h3>Boot anywhere.</h3>
-					<p>Create bootable USB sticks with repair utilities that you can take with you anywhere.
-				<li>
-					<h3>Protect against disaster.</h3>
-					<p>Create entries to boot into recovery utilities or safe mode to prepare for a rainy day.
-				<li>
-					<h3>Painless editing.</h3>
-					<p>Add, rename, remove, configure, and reorder entries at whim.
-				<li>
-					<h3>Solve difficult problems.</h3>
-					<p>Use EasyBCD to troubleshoot Windows, back up and repair the bootloader, and more.
-				<li>
-					<h3>Powerful scripting with NeoGrub</h3>
-					<p>You'll have the power to hide partitions, change active flags, and create complex boot scenarios.
-			</ul>
-		</div>
-	</div>
-
-	<div class="section comparison" id="comparison">
-		<div class="header"><h2>Select the best solution for your needs.</h2></div>
-		<div class="content">
+	<div class="header site">
+		<div class="nav">
 			<ul>
-				<li class="free solution">
-					<div class="data">
-						<h3>Non-commercial <span class="price">Free</span></h3>
-						<ul class="features">
-							<li><strong>Limited</strong>, community support
-							<li><strong>No</strong> early access to new features
-							<li>Only for <strong>personal, non-commercial</strong> use
-						</ul>
-						<a class="cta-button" href="http://neosmart.net/Download/Register/1">Register</a>
-					</div>
-				<li class="commercial solution">
-					<div class="data">
-						<h3>Commercial <span class="price" itemprop="price">$24.95</span></h3>
-						<meta itemprop="priceCurrency" content="USD">
-						<ul class="features">
-							<li><strong>Priority</strong> technical support
-							<li>Detailed <strong>PDF instruction manual</strong>
-							<li>Automatic upgrades to <strong>new releases</strong>
-							<li><strong>Bootable</strong> repair &amp; recovery CD <small><em>(<abbr title="Buy now, and get it free when it ships!">coming soon!</abbr>)</em></small>
-						</ul>
-						<a class="cta-button" href="http://neosmart.net/Store">Buy Now</a>
-					</div>
-				<li class="custom solution">
-					<div class="data">
-						<h3>OEM &amp; ISV Solutions</h3>
-						<ul class="features">
-							<li><strong>Need more?</strong> Are you seeking a customized boot solution for your company or product?
-							<li><strong>Get in touch</strong>, and we'll help you achieve your goals (consulting or development)
-						</ul>
-						<a class="cta-button" href="mailto:neosmart@neosmart.net">Contact</a>
-					</div>
+				<li class="branding"><a href="#">NeoSmart Technologies</a>
+				<li><a href="http://neosmart.net/blog/">Blog</a>
+				<li><a href="http://neosmart.net/wiki/">User Guide</a>
+				<li><a href="http://neosmart.net/forums/">Forums</a>
+				<li><a href="http://neosmart.net/store/">Buy Now</a>
 			</ul>
 		</div>
 	</div>
-	<div class="section awards">
-		<div class="header"><h2>Over <strong>25,000,000</strong> downloads to date.</h2></div>
-		<div class="content">
+
+	<div class="subheader">
+		<div class="nav">
+			<div class="product">
+				<a href="#">
+					<img class="icon retina" alt="EasyBCD icon" src="i/favicon.png" width="24" height="24">
+					<div class="name" itemprop="name">EasyBCD</div>
+				</a>
+			</div>
 			<ul>
-				<li class="pcmagazine"><img alt="PC Magazine Editor's Choice" src="i/awards/pcmagazine.png">
-				<li class="cnet"><img alt="CNET 5 stars" src="i/awards/cnet.png">
-				<li class="pcworld"><img alt="PCWorld Fantastic Freebie" src="i/awards/pcworld.png">
-				<li class="ninemsn"><img alt="Nine MSN" src="i/awards/ninemsn.png">
-				<li class="softpedia"><img alt="Softpedia 5 star pick" src="i/awards/softpedia.png">
+				<li><a href="http://neosmart.net/Changelog/1">Changelog</a>
+				<li><a href="http://neosmart.net/gallery/album/view/neosmart/EasyBCD/EasyBCD+2.2/">Screenshots</a>
+				<li><a href="http://neosmart.net/wiki/display/EBCD/EasyBCD+Documentation+Home">Documentation</a>
 			</ul>
 		</div>
 	</div>
-</div><!--container-->
 
-<div class="footer site">
-	<div class="nav">
-		<ul>
-			<li class="copyright">&copy; 2012 <a href="/">NeoSmart Technlogies </a>
-			<li><a href="http://neosmart.net/blog/about">About</a>
-			<li><a href="http://neosmart.net/Home/Info/Privacy">Privacy</a>
-			<li><a href="http://neosmart.net/Home/Info/Contact">Contact</a>
-			<li><a href="http://neosmart.net/forums">Help</a>
-			<li><a href="http://neosmart.net/Home/Info/Refund">Refund Policy</a>
-			<li><a href="http://neosmart.net/forums/forumdisplay.php?f=9">Report a Bug</a>
-			<li><a href="http://neosmart.net/Donate">Donations</a>
-		</ul>
+	<div id="container">
+		<div class="section intro">
+			<div class="header"><h1>Take control of your boot loader.</h1></div>
+			<div class="content">
+				<p class="intro" itemprop="description">EasyBCD supercharges your Windows PC, allowing you to dual-boot to your heart's content.</p>
+				<a id="app-preview"><img alt="EasyBCD application" src="i/window.png" width="320" height="320"></a>
+			</div>
+			<div class="footer">
+				<a class="cta-button" href="http://neosmart.net/Store">Buy Now</a>
+				<a class="cta-button" href="#comparison" id="goto-comparison">See Plans</a>
+			</div>
+		</div>
+
+		<div class="section support">
+			<div class="header"><h2>Dual-boot with anything you could want.</h2></div>
+			<div class="content">
+				<ul class="os">
+					<li class="win"><img class="retina" src="i/os/scaled/win8.png" alt="Windows 8, Windows 7, Windows Vista, Windows XP, Windows 2003" title="Windows 8, Windows 7, Windows Vista, Windows XP, Windows 2003">
+					<li class="osx"><img class="retina" src="i/os/scaled/apple.png" alt="Mac OS X" title="Mac OS X">
+					<li class="linux"><img class="retina" src="i/os/scaled/linux.png" alt="Linux" title="Linux">
+					<li class="bsd"><img class="retina" src="i/os/scaled/bsd.png" alt="BSD" title="BSD">
+				</ul>
+				<p class="legacy">Also boot into <strong>legacy systems</strong> Microsoft doesn't support: MS-DOS, Windows 9x, Windows ME, and Windows 2000!
+			</div>
+
+	<ul class="social">
+		<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fneosmart&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=35&amp;appId=255412261182477" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe>
+	</ul>
 	</div>
-</div>
 
-<div class="popup"><img alt="EasyBCD application" src="i/window-full.png"></div>
+		<div class="section benefits">
+			<div class="header"><h2>A breeze to use. Filled with benefits.</h2></div>
+			<div class="content">
+				<ul itemprop="providedFeatures">
+					<li>
+						<h3>Boot anything.</h3>
+						<p>Windows, Linux, Mac, &amp; BSD! Boot both from and into USB drives, ISO images, virtual disks, and more.
+					<li>
+						<h3>Boot anywhere.</h3>
+						<p>Create bootable USB sticks with repair utilities that you can take with you anywhere.
+					<li>
+						<h3>Protect against disaster.</h3>
+						<p>Create entries to boot into recovery utilities or safe mode to prepare for a rainy day.
+					<li>
+						<h3>Painless editing.</h3>
+						<p>Add, rename, remove, configure, and reorder entries at whim.
+					<li>
+						<h3>Solve difficult problems.</h3>
+						<p>Use EasyBCD to troubleshoot Windows, back up and repair the bootloader, and more.
+					<li>
+						<h3>Powerful scripting with NeoGrub</h3>
+						<p>You'll have the power to hide partitions, change active flags, and create complex boot scenarios.
+				</ul>
+			</div>
+		</div>
+
+		<div class="section comparison" id="comparison">
+			<div class="header"><h2>Select the best solution for your needs.</h2></div>
+			<div class="content">
+				<ul>
+					<li class="free solution">
+						<div class="data">
+							<h3>Non-commercial <span class="price">Free</span></h3>
+							<ul class="features">
+								<li><strong>Limited</strong>, community support
+								<li><strong>No</strong> early access to new features
+								<li>Only for <strong>personal, non-commercial</strong> use
+							</ul>
+							<a class="cta-button" href="http://neosmart.net/Download/Register/1">Register</a>
+						</div>
+					<li class="commercial solution">
+						<div class="data">
+							<h3>Commercial <span class="price" itemprop="price">$24.95</span></h3>
+							<meta itemprop="priceCurrency" content="USD">
+							<ul class="features">
+								<li><strong>Priority</strong> technical support
+								<li>Detailed <strong>PDF instruction manual</strong>
+								<li>Automatic upgrades to <strong>new releases</strong>
+								<li><strong>Bootable</strong> repair &amp; recovery CD <small><em>(<abbr title="Buy now, and get it free when it ships!">coming soon!</abbr>)</em></small>
+							</ul>
+							<a class="cta-button" href="http://neosmart.net/Store">Buy Now</a>
+						</div>
+					<li class="custom solution">
+						<div class="data">
+							<h3>OEM &amp; ISV Solutions</h3>
+							<ul class="features">
+								<li><strong>Need more?</strong> Are you seeking a customized boot solution for your company or product?
+								<li><strong>Get in touch</strong>, and we'll help you achieve your goals (consulting or development)
+							</ul>
+							<a class="cta-button" href="mailto:neosmart@neosmart.net">Contact</a>
+						</div>
+				</ul>
+			</div>
+		</div>
+		<div class="section awards">
+			<div class="header"><h2>Over <strong>25,000,000</strong> downloads to date.</h2></div>
+			<div class="content">
+				<ul>
+					<li class="pcmagazine"><img alt="PC Magazine Editor's Choice" src="i/awards/pcmagazine.png">
+					<li class="cnet"><img alt="CNET 5 stars" src="i/awards/cnet.png">
+					<li class="pcworld"><img alt="PCWorld Fantastic Freebie" src="i/awards/pcworld.png">
+					<li class="ninemsn"><img alt="Nine MSN" src="i/awards/ninemsn.png">
+					<li class="softpedia"><img alt="Softpedia 5 star pick" src="i/awards/softpedia.png">
+				</ul>
+			</div>
+		</div>
+	</div><!--container-->
+
+	<div class="footer site">
+		<div class="nav">
+			<ul>
+				<li class="copyright">&copy; 2012 <a href="/">NeoSmart Technlogies </a>
+				<li><a href="http://neosmart.net/blog/about">About</a>
+				<li><a href="http://neosmart.net/Home/Info/Privacy">Privacy</a>
+				<li><a href="http://neosmart.net/Home/Info/Contact">Contact</a>
+				<li><a href="http://neosmart.net/forums">Help</a>
+				<li><a href="http://neosmart.net/Home/Info/Refund">Refund Policy</a>
+				<li><a href="http://neosmart.net/forums/forumdisplay.php?f=9">Report a Bug</a>
+				<li><a href="http://neosmart.net/Donate">Donations</a>
+			</ul>
+		</div>
+	</div>
+
+	<div class="popup"><img alt="EasyBCD application" src="i/window-full.png"></div>
