@@ -212,10 +212,10 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 		<ul>
 			<li class="copyright">&copy; 2012 <a href="/">NeoSmart Technlogies </a>
 			<li><a href="http://neosmart.net/blog/about">About</a>
-			<li><a href="http://neosmart.net/Info/Privacy">Privacy</a>
-			<li><a href="http://neosmart.net/Info/Contact">Contact</a>
+			<li><a href="http://neosmart.net/Home/Info/Privacy">Privacy</a>
+			<li><a href="http://neosmart.net/Home/Info/Contact">Contact</a>
 			<li><a href="http://neosmart.net/forums">Help</a>
-			<li><a href="http://neosmart.net/Info/Refund">Refund Policy</a>
+			<li><a href="http://neosmart.net/Home/Info/Refund">Refund Policy</a>
 			<li><a href="http://neosmart.net/forums/forumdisplay.php?f=9">Report a Bug</a>
 			<li><a href="http://neosmart.net/Donate">Donations</a>
 		</ul>
