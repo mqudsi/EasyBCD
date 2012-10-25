@@ -18,6 +18,14 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 	<link rel="stylesheet" media="screen" href="c/style.css">
 	<link rel="icon" href="i/favicon.png">
 
+	<meta property="og:title" content="EasyBCD"/>
+    <meta property="og:type" content="product"/>
+    <meta property="og:url" content="http://neosmart.net/EasyBCD/"/>
+    <meta property="og:image" content="http://neosmart.net/images/logos/EasyBCD%20256x256.png"/>
+    <meta property="og:site_name" content="NeoSmart Technologies"/>
+    <meta property="fb:admins" content="505172047"/>
+    <meta property="fb:app_id" content="255412261182477"/>
+
 	<script type="text/javascript">
 		var jQl={q:[],dq:[],ready:function(a){typeof a=="function"&&jQl.q.push(a);return jQl},unq:function(){for(var a=0;a<jQl.q.length;a++)jQl.q[a]();jQl.q=[]},bId:null,boot:function(a){if(typeof window.jQuery.fn=="undefined"){if(!jQl.bId)jQl.bId=setInterval(function(){jQl.boot(a)},25)}else{jQl.bId&&clearInterval(jQl.bId);jQl.bId=0;jQl.unqjQdep();$(jQl.unq());typeof a=="function"&&a()}},booted:function(){return jQl.bId===0},loadjQ:function(a,c){setTimeout(function(){var b=document.createElement("script"); b.src=a;document.getElementsByTagName("head")[0].appendChild(b)},1);jQl.boot(c)},loadjQdep:function(a){jQl.loadxhr(a,jQl.qdep)},qdep:function(a){if(a)typeof window.jQuery.fn!=="undefined"&&!jQl.dq.length?jQl.rs(a):jQl.dq.push(a)},unqjQdep:function(){if(typeof window.jQuery.fn=="undefined")setTimeout(jQl.unqjQdep,50);else{for(var a=0;a<jQl.dq.length;a++)jQl.rs(jQl.dq[a]);jQl.dq=[]}},rs:function(a){var c=document.createElement("script");document.getElementsByTagName("head")[0].appendChild(c);c.text= a},loadxhr:function(a,c){var b;b=jQl.getxo();b.onreadystatechange=function(){b.readyState!=4||200!=b.status||c(b.responseText,a)};try{b.open("GET",a,true);b.send("")}catch(d){}},getxo:function(){var a=false;try{a=new XMLHttpRequest}catch(c){for(var b=["MSXML2.XMLHTTP.5.0","MSXML2.XMLHTTP.4.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsoft.XMLHTTP"],d=0;d<b.length;++d){try{a=new ActiveXObject(b[d])}catch(e){continue}break}}finally{return a}}}; if(typeof window.jQuery=="undefined")var $=jQl.ready,jQuery=$;
 		jQl.loadjQ("//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js");
@@ -53,19 +61,9 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  })();
 	</script>
-
 </head>
 
 <body itemscope itemtype="http://schema.org/SoftwareApplication">
-
-    <meta property="og:title" content="EasyBCD"/>
-    <meta property="og:type" content="product"/>
-    <meta property="og:url" content="http://neosmart.net/EasyBCD/"/>
-    <meta property="og:image" content="http://neosmart.net/images/logos/EasyBCD%20256x256.png"/>
-    <meta property="og:site_name" content="NeoSmart Technologies"/>
-    <meta property="fb:admins" content="505172047"/>
-    <meta property="fb:app_id" content="255412261182477"/>
-
 	<link itemprop="image" href="i/EasyBCD.png">
 	<link itemprop="url" href="http://neosmart.net/EasyBCD/">
 	<meta itemprop="softwareApplicationCategory" content="UtilitiesApplication">
