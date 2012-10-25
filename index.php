@@ -92,7 +92,7 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 			</a>
 		</div>
 		<ul>
-			<li><a href="http://neosmart.net/changelog.php?id=1">Changelog</a>
+			<li><a href="http://neosmart.net/Changelog/1">Changelog</a>
 			<li><a href="http://neosmart.net/gallery/album/view/neosmart/EasyBCD/EasyBCD+2.2/">Screenshots</a>
 			<li><a href="http://neosmart.net/wiki/display/EBCD/EasyBCD+Documentation+Home">Documentation</a>
 		</ul>
@@ -107,7 +107,7 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 			<a id="app-preview"><img alt="EasyBCD application" src="i/window.png" width="320" height="320"></a>
 		</div>
 		<div class="footer">
-			<a class="cta-button" href="http://neosmart.net/store/">Buy Now</a>
+			<a class="cta-button" href="http://neosmart.net/Store">Buy Now</a>
 			<a class="cta-button" href="#comparison" id="goto-comparison">See Plans</a>
 		</div>
 	</div>
@@ -179,7 +179,7 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 							<li>Automatic upgrades to <strong>new releases</strong>
 							<li><strong>Bootable</strong> repair &amp; recovery CD <small><em>(<abbr title="Buy now, and get it free when it ships!">coming soon!</abbr>)</em></small>
 						</ul>
-						<a class="cta-button" href="http://neosmart.net/store/">Buy Now</a>
+						<a class="cta-button" href="http://neosmart.net/Store">Buy Now</a>
 					</div>
 				<li class="custom solution">
 					<div class="data">
@@ -212,12 +212,12 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 		<ul>
 			<li class="copyright">&copy; 2012 <a href="/">NeoSmart Technlogies </a>
 			<li><a href="http://neosmart.net/blog/about">About</a>
-			<li><a href="http://neosmart.net/info.php?page=privacy">Privacy</a>
-			<li><a href="http://neosmart.net/info.php?page=contact">Contact</a>
-			<li><a href="http://neosmart.net/info.php?page=contact">Help</a>
-			<li><a href="http://neosmart.net/info.php?page=refund">Refund Policy</a>
+			<li><a href="http://neosmart.net/Info/Privacy">Privacy</a>
+			<li><a href="http://neosmart.net/Info/Contact">Contact</a>
+			<li><a href="http://neosmart.net/forums">Help</a>
+			<li><a href="http://neosmart.net/Info/Refund">Refund Policy</a>
 			<li><a href="http://neosmart.net/forums/forumdisplay.php?f=9">Report a Bug</a>
-			<li><a href="http://neosmart.net/donations.php">Donations</a>
+			<li><a href="http://neosmart.net/Donate">Donations</a>
 		</ul>
 	</div>
 </div>
