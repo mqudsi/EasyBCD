@@ -13,7 +13,7 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" itemscope itemtype="http://schema.org/"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>EasyBCD - Take control of your boot loader | NeoSmart Technologies</title>
+	<title>EasyBCD - NeoSmart Technologies</title>
 	<link rel="canonical" href="http://neosmart.net/EasyBCD/">
 	<link rel="stylesheet" media="screen" href="c/style.css">
 	<link rel="icon" href="i/favicon.png">
