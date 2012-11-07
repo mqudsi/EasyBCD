@@ -6,11 +6,13 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 	exit();
 }
 
+$prefix = "//neosmart.nststatic.com";
+
 $html = file_get_contents("easybcd.html");
 $search = array("\"i/", "\"j/", "\"c/");
-$replace = array("\"//acf.neosmart.net/EasyBCD/i/", "\"//acf.neosmart.net/EasyBCD/j/", "\"//acf.neosmart.net/EasyBCD/c/");
+$replace = array("\"$prefix/i/", "\"//$prefix/EasyBCD/j/", "\"//$prefix/EasyBCD/c/");
 $html = str_replace($search, $replace, $html);
 
 echo $html;
-file_put_contents("output", $html);
+
 ?>
