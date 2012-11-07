@@ -6,11 +6,11 @@ if($_SERVER["REQUEST_URI"] != "/EasyBCD/")
 	exit();
 }
 
-$prefix = "//neosmart.nststatic.com";
+$prefix = "//neosmart.nststatic.com/EasyBCD/";
 
 $html = file_get_contents("easybcd.html");
 $search = array("\"i/", "\"j/", "\"c/");
-$replace = array("\"$prefix/i/", "\"$prefix/EasyBCD/j/", "\"$prefix/EasyBCD/c/");
+$replace = array("\"{$prefix}i/", "\"{$prefix}j/", "\"{$prefix}c/");
 $html = str_replace($search, $replace, $html);
 
 echo $html;
