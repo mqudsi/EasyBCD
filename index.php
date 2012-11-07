@@ -10,7 +10,7 @@ $prefix = "//neosmart.nststatic.com";
 
 $html = file_get_contents("easybcd.html");
 $search = array("\"i/", "\"j/", "\"c/");
-$replace = array("\"$prefix/i/", "\"//$prefix/EasyBCD/j/", "\"//$prefix/EasyBCD/c/");
+$replace = array("\"$prefix/i/", "\"$prefix/EasyBCD/j/", "\"$prefix/EasyBCD/c/");
 $html = str_replace($search, $replace, $html);
 
 echo $html;
