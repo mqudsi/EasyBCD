@@ -25,7 +25,8 @@
         var checkForRetina = new RegExp("(.+)("+settings['retina_part']+"\\.\\w{3,4})");
         if(checkForRetina.test($(element).attr('src'))) return;
 
-        var new_image_src = $(element).attr('src').replace(/(.+)(\.\w{3,4})$/, "$1"+ settings['retina_part'] +"$2");
+		//use data-href if found, else use src
+        var new_image_src = ($(element).attr('data-href') != undefined ? $(element).attr('data-href') : $(element).attr('src')).replace(/(.+)(\.\w{3,4})$/, "$1"+ settings['retina_part'] +"$2");
         $.ajax({url: new_image_src, type: "HEAD", success: function() {
           $(element).attr('src', new_image_src);
         }});

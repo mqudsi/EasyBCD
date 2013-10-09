@@ -9,6 +9,7 @@
 	<title>EasyBCD - NeoSmart Technologies</title>
 	<link rel="canonical" href="http://neosmart.net/EasyBCD/">
 	<link rel="stylesheet" media="screen" href="c/style.css">
+	<link rel="stylesheet" media="screen" href="colorbox/colorbox.css">
 	<link rel="icon" href="i/favicon.png">
 
 	<meta property="og:title" content="EasyBCD"/>
@@ -24,19 +25,22 @@
 
 	<script type="text/javascript">
 		var jQl={q:[],dq:[],ready:function(a){typeof a=="function"&&jQl.q.push(a);return jQl},unq:function(){for(var a=0;a<jQl.q.length;a++)jQl.q[a]();jQl.q=[]},bId:null,boot:function(a){if(typeof window.jQuery.fn=="undefined"){if(!jQl.bId)jQl.bId=setInterval(function(){jQl.boot(a)},25)}else{jQl.bId&&clearInterval(jQl.bId);jQl.bId=0;jQl.unqjQdep();$(jQl.unq());typeof a=="function"&&a()}},booted:function(){return jQl.bId===0},loadjQ:function(a,c){setTimeout(function(){var b=document.createElement("script"); b.src=a;document.getElementsByTagName("head")[0].appendChild(b)},1);jQl.boot(c)},loadjQdep:function(a){jQl.loadxhr(a,jQl.qdep)},qdep:function(a){if(a)typeof window.jQuery.fn!=="undefined"&&!jQl.dq.length?jQl.rs(a):jQl.dq.push(a)},unqjQdep:function(){if(typeof window.jQuery.fn=="undefined")setTimeout(jQl.unqjQdep,50);else{for(var a=0;a<jQl.dq.length;a++)jQl.rs(jQl.dq[a]);jQl.dq=[]}},rs:function(a){var c=document.createElement("script");document.getElementsByTagName("head")[0].appendChild(c);c.text= a},loadxhr:function(a,c){var b;b=jQl.getxo();b.onreadystatechange=function(){b.readyState!=4||200!=b.status||c(b.responseText,a)};try{b.open("GET",a,true);b.send("")}catch(d){}},getxo:function(){var a=false;try{a=new XMLHttpRequest}catch(c){for(var b=["MSXML2.XMLHTTP.5.0","MSXML2.XMLHTTP.4.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsoft.XMLHTTP"],d=0;d<b.length;++d){try{a=new ActiveXObject(b[d])}catch(e){continue}break}}finally{return a}}}; if(typeof window.jQuery=="undefined")var $=jQl.ready,jQuery=$;
-		jQl.loadjQ("//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js");
+		jQl.loadjQ("https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js");
 
 		$(document).ready(function(){
 			$.ajaxSetup({
 				cache: true
 			});
-			/*$.getScript("j/jquery.retina.js", function() {
+			$.getScript("j/jquery.retina.js", function() {
 				$("img.retina").retina("@2x");
-			});*/
+			});
+			$.getScript("colorbox/jquery.colorbox.js", function() {
+				$(".screenshots").colorbox({rel:'screenshots'});
+			});
 			$.getScript("j/modernizr.min.js");
-			$.getScript("j/script.js");
 		});
 	</script>
+	<script type="text/javascript" src="j/script.js" />
 	<script type="text/javascript">
 		function ShareWindow(url) {
 			var myWindow = window.open(url,'','width=600,height=300');
@@ -89,7 +93,7 @@
 		<div class="nav">
 			<div class="product">
 				<a href="#">
-					<img class="icon retina" alt="EasyBCD icon" src="i/favicon.png" width="24" height="24">
+					<img class="icon retina" alt="EasyBCD icon" data-href="i/favicon.png" src="i/favicon.png" width="24" height="24">
 					<div class="name" itemprop="name">EasyBCD</div>
 				</a>
 			</div>
@@ -106,7 +110,10 @@
 			<div class="header"><h1>Take control of your boot loader.</h1></div>
 			<div class="content">
 				<p class="intro" itemprop="description">EasyBCD supercharges your Windows PC, allowing you to dual-boot to your heart's content.</p>
-				<a id="app-preview"><img alt="EasyBCD application" src="i/window.png" width="320" height="320"></a>
+				<a id="app-preview" class="screenshots" title="EasyBCD natively supports many different operating systems" href="i/window-full.png"><img alt="EasyBCD application" src="i/window.png" width="320" height="320"></a>
+				<a class="screenshots" style="display: none;" href="i/screenshots/Overview.png" title="Full Windows 8 compatibility" />
+				<a class="screenshots" style="display: none;" href="i/screenshots/Setup.png" title="Small and easy to install" />
+				<a class="screenshots" style="display: none;" href="i/screenshots/Multilingual.png" title="Supports many languages" />
 			</div>
 			<div class="footer">
 				<a class="cta-button" href="http://neosmart.net/Store">Buy Now</a>
@@ -118,16 +125,16 @@
 			<div class="header"><h2>Dual-boot with anything you could want.</h2></div>
 			<div class="content">
 				<ul class="os">
-					<li class="win"><img class="retina" src="i/os/scaled/win8.png" alt="Windows 8, Windows 7, Windows Vista, Windows XP, Windows 2003" title="Windows 8, Windows 7, Windows Vista, Windows XP, Windows 2003">
-					<li class="osx"><img class="retina" src="i/os/scaled/apple.png" alt="Mac OS X" title="Mac OS X">
-					<li class="linux"><img class="retina" src="i/os/scaled/linux.png" alt="Linux" title="Linux">
-					<li class="bsd"><img class="retina" src="i/os/scaled/bsd.png" alt="BSD" title="BSD">
+					<li class="win"><img class="retina" data-href="i/os/scaled/win8.png" src="i/os/scaled/win8.png" alt="Windows 8, Windows 7, Windows Vista, Windows XP, Windows 2003" title="Windows 8, Windows 7, Windows Vista, Windows XP, Windows 2003">
+					<li class="osx"><img class="retina" data-href="i/os/scaled/apple.png" src="i/os/scaled/apple.png" alt="Mac OS X" title="Mac OS X">
+					<li class="linux"><img class="retina" data-href="i/os/scaled/linux.png" src="i/os/scaled/linux.png" alt="Linux" title="Linux">
+					<li class="bsd"><img class="retina" data-href="i/os/scaled/bsd.png" src="i/os/scaled/bsd.png" alt="BSD" title="BSD">
 				</ul>
 				<p class="legacy">Also boot into <strong>legacy systems</strong> Microsoft doesn't support: MS-DOS, Windows 9x, Windows ME, and Windows 2000!
 			</div>
 
 	<ul class="social">
-		<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fneosmart&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=35&amp;appId=255412261182477" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe>
+		<iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fneosmart&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=35&amp;appId=255412261182477" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe>
 	</ul>
 	</div>
 
@@ -177,9 +184,9 @@
 							<meta itemprop="priceCurrency" content="USD">
 							<ul class="features">
 								<li><strong>Priority</strong> technical support
+								<li>Works with <strong>enterprise and professional</strong> editions of Windows
 								<li>Detailed <strong>PDF instruction manual</strong>
 								<li>Automatic upgrades to <strong>new releases</strong>
-								<li><strong>Bootable</strong> repair &amp; recovery CD
 							</ul>
 							<a class="cta-button" href="http://neosmart.net/Store">Buy Now</a>
 						</div>
@@ -223,5 +230,3 @@
 			</ul>
 		</div>
 	</div>
-
-	<div class="popup"><img alt="EasyBCD application" src="i/window-full.png"></div>
