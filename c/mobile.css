@@ -1,0 +1,162 @@
+@media only screen and (max-width: 768px) {
+
+    .header.site .nav {
+        width: 100%;
+    }
+    .header.site .nav ul li,
+    .header.site .nav ul li.branding {
+        width: 100%;
+        display: block;
+        float: none;
+        text-align: center;
+    }
+    .header.site .nav ul li a,
+    .header.site .nav ul li.branding a {
+        text-align: center;
+    }
+    .subheader .nav {
+        width: 100%;
+    }
+    .subheader .nav .product {
+        width: 100%;
+        float: none;
+    }
+    .subheader .nav .product a {
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+    }
+    .subheader .nav .product a img {
+        position: relative;
+        display: inline-block;
+    }
+    .subheader .nav .product a .name {
+        padding: 0 0 0 5px;
+        display: inline-block;
+    }
+    .subheader .nav ul {
+        width: 100%;
+        float: none;
+    }
+    .subheader .nav ul li {
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+    #container {
+        width: 100%;
+    }
+    #container .section .header {
+        padding: 0;
+    }
+    #container .section .content {
+        padding: 0;
+    }
+    #container .section.support ul.os {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+    #container .section.support ul.os li {
+        float: none;
+        display: inline;
+    }
+    #container .section.support p.legacy {
+        width: auto;
+        float: none;
+        margin: 0 0 25px 0;
+        padding: 15px 0;
+        text-align: center;
+    }
+    #container ul.social {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    #container .section.intro .header h1 {
+        width: 100%;
+        text-align: center;
+        float: none;
+        padding: 0;
+        margin: 0;
+    }
+    #container .section.intro .content p.intro {
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 0 25px 0;
+    }
+    #container .section.intro .content a#app-preview {
+        display: none;
+    }
+    #container .section.intro .footer {
+        padding: 0;
+    }
+    #container .section.intro .footer a.cta-button {
+        width: 100%;
+        float: none;
+        margin: 0 0 10px 0;
+    }
+    #container .section.intro .footer a.cta-button {
+        width: 100%;
+        float: none;
+    }
+    #container .section.benefits .content {
+        padding: 0;
+    }
+    #container .section.benefits .content ul li {
+        float: none;
+        width: 100%;
+    }
+    #container .section.comparison .content {
+        padding: 0;
+    }
+    #container .section.comparison .content ul li.solution,
+    #container .section.comparison .content ul li.solution.commercial {
+        float: none;
+        width: 100%;
+    }
+    #container .section.comparison .content ul li.free .data ul.features {
+        height: auto;
+    }
+    #container .section.comparison .content ul li.commercial .data ul.features {
+        height: auto;
+    }
+    #container .section.awards .content ul {
+        text-align: center;
+        margin: 0;
+    }
+    #container .section.awards .content ul li {
+        float: none;
+        text-align: center;
+        display: inline;
+    }
+    .oem-solutions {
+        width: auto;
+        padding: 0;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .footer.site .nav {
+        width: 100%;
+    }
+    .footer.site .nav ul {
+        text-align: center;
+    }
+    .footer.site .nav ul li.copyright {
+        width: 100%;
+        text-align: center;
+        float: none;
+        display: block;
+    }
+    .footer.site .nav ul li {
+        float: none;
+        text-align: center;
+        display: inline-block;
+    }
+    
+}
+
