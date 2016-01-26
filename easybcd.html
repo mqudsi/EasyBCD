@@ -21,8 +21,8 @@
 	<meta property="fb:admins" content="505172047"/>
 	<meta property="fb:app_id" content="255412261182477"/>
 
-    	<meta name="description" content="EasyBCD is a software utility for Windows that lets you control and configure the BCD/BOOTMGR bootloader for Windows Vista, Windows 7, Windows 8, and Windows 10 for dual-boots." />
-    	<meta name="keywords" content="easybcd, neosmart, download, windows 7, windows vista, windows 8, windows 10, bootloader, dual-boot, multi-boot, bootmgr, bcd" />
+	<meta name="description" content="EasyBCD is a software utility for Windows that lets you control and configure the BCD/BOOTMGR bootloader for Windows Vista, Windows 7, Windows 8, and Windows 10 for dual-boots." />
+	<meta name="keywords" content="easybcd, neosmart, download, windows 7, windows vista, windows 8, windows 10, bootloader, dual-boot, multi-boot, bootmgr, bcd" />
 
 	<script type="text/javascript">
 		var jQl={q:[],dq:[],ready:function(a){typeof a=="function"&&jQl.q.push(a);return jQl},unq:function(){for(var a=0;a<jQl.q.length;a++)jQl.q[a]();jQl.q=[]},bId:null,boot:function(a){if(typeof window.jQuery.fn=="undefined"){if(!jQl.bId)jQl.bId=setInterval(function(){jQl.boot(a)},25)}else{jQl.bId&&clearInterval(jQl.bId);jQl.bId=0;jQl.unqjQdep();$(jQl.unq());typeof a=="function"&&a()}},booted:function(){return jQl.bId===0},loadjQ:function(a,c){setTimeout(function(){var b=document.createElement("script"); b.src=a;document.getElementsByTagName("head")[0].appendChild(b)},1);jQl.boot(c)},loadjQdep:function(a){jQl.loadxhr(a,jQl.qdep)},qdep:function(a){if(a)typeof window.jQuery.fn!=="undefined"&&!jQl.dq.length?jQl.rs(a):jQl.dq.push(a)},unqjQdep:function(){if(typeof window.jQuery.fn=="undefined")setTimeout(jQl.unqjQdep,50);else{for(var a=0;a<jQl.dq.length;a++)jQl.rs(jQl.dq[a]);jQl.dq=[]}},rs:function(a){var c=document.createElement("script");document.getElementsByTagName("head")[0].appendChild(c);c.text= a},loadxhr:function(a,c){var b;b=jQl.getxo();b.onreadystatechange=function(){b.readyState!=4||200!=b.status||c(b.responseText,a)};try{b.open("GET",a,true);b.send("")}catch(d){}},getxo:function(){var a=false;try{a=new XMLHttpRequest}catch(c){for(var b=["MSXML2.XMLHTTP.5.0","MSXML2.XMLHTTP.4.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsoft.XMLHTTP"],d=0;d<b.length;++d){try{a=new ActiveXObject(b[d])}catch(e){continue}break}}finally{return a}}}; if(typeof window.jQuery=="undefined")var $=jQl.ready,jQuery=$;
@@ -31,9 +31,6 @@
 		$(document).ready(function(){
 			$.ajaxSetup({
 				cache: true
-			});
-			$.getScript("j/jquery.retina.js", function() {
-				$("img.retina").retina("@2x");
 			});
 			$.getScript("colorbox/jquery.colorbox.js", function() {
 				$(".screenshots").colorbox({rel:'screenshots'});
@@ -94,7 +91,7 @@
 		<div class="nav">
 			<div class="product">
 				<a href="#">
-					<img class="icon retina" alt="EasyBCD icon" data-href="i/favicon.png" src="i/favicon.png" width="24" height="24">
+					<img class="icon" alt="EasyBCD icon" src="i/favicon.png" srcset="i/favicon.png 1x, i/favicon@2x.png 2x" width="24" height="24">
 					<div class="name" itemprop="name">EasyBCD</div>
 				</a>
 			</div>
@@ -111,7 +108,12 @@
 			<div class="header"><h1>Take control of your boot loader.</h1></div>
 			<div class="content">
 				<p class="intro" itemprop="description">EasyBCD supercharges your Windows PC, allowing you to dual-boot to your heart's content.</p>
-				<a id="app-preview" class="screenshots" title="EasyBCD offers a user-friendly and intuitive interface to analyze and reconfigure the bootloader." href="i/screenshots/Home.png"><img alt="EasyBCD application" src="i/window.png" width="320" height="320"></a>
+				<a id="app-preview" class="screenshots" title="EasyBCD offers a user-friendly and intuitive interface to analyze and reconfigure the bootloader." href="i/screenshots/Home.png">
+					<picture>
+						<source type="image/webp" srcset="i/window.webp">
+						<img alt="EasyBCD application" src="i/window.png" width="320" height="320">
+					</picture>
+				</a>
 				<a class="screenshots" style="display: none;" href="i/screenshots/Edit Boot Menu.png" title="Configure how the bootloader looks and behaves, manage entries, and more with EasyBCD." />
 				<a class="screenshots" style="display: none;" href="i/screenshots/Add New Entry.png" title="Add entries for additional Windows versions or dual-boot a Linux, BSD, or even Mac installation." />
 				<a class="screenshots" style="display: none;" href="i/screenshots/Advanced Settings.png" title="Use EasyBCD to create advanced entries for troubleshooting and recovery purposes. Activate safe mode from the boot menu and more." />
@@ -132,10 +134,34 @@
 			<div class="header"><h2>Dual-boot with anything you could want.</h2></div>
 			<div class="content">
 				<ul class="os">
-					<li class="win"><img class="retina" data-href="i/os/scaled/win8.png" src="i/os/scaled/win8.png" alt="Windows 10, Windows 8, Windows 7, Windows Vista, Windows XP, Windows 2003" title="Windows 10, Windows 8, Windows 7, Windows Vista, Windows XP, Windows 2003">
-					<li class="osx"><img class="retina" data-href="i/os/scaled/apple.png" src="i/os/scaled/apple.png" alt="Mac OS X" title="Mac OS X">
-					<li class="linux"><img class="retina" data-href="i/os/scaled/linux.png" src="i/os/scaled/linux.png" alt="Linux" title="Linux">
-					<li class="bsd"><img class="retina" data-href="i/os/scaled/bsd.png" src="i/os/scaled/bsd.png" alt="BSD" title="BSD">
+					<li class="win">
+						<picture>
+							<source type="image/webp" srcset="i/os/scaled/win8.webp 1x, i/os/scaled/win8@2x.webp 2x" />
+							<source type="image/png" srcset="i/os/scaled/win8.png 1x, i/os/scaled/win8@2x.png 2x" />
+							<img src="i/os/scaled/win8.png" alt="Windows" title="Windows 10, Windows 8, Windows 7, Windows Vista, Windows XP, Windows 2003">
+						</picture>
+					</li>
+					<li class="osx">
+						<picture>
+							<source type="image/webp" srcset="i/os/scaled/apple.webp 1x, i/os/scaled/apple@2x.webp 2x" />
+							<source type="image/png" srcset="i/os/scaled/apple.png 1x, i/os/scaled/apple@2x.png 2x" />
+							<img src="i/os/scaled/apple.png" alt="Mac OS X" title="Mac OS X">
+						</picture>
+					</li>
+					<li class="linux">
+						<picture>
+							<source type="image/webp" srcset="i/os/scaled/linux.webp 1x, i/os/scaled/linux@2x.webp 2x" />
+							<source type="image/png" srcset="i/os/scaled/linux.png 1x, i/os/scaled/linux@2x.png 2x" />
+							<img src="i/os/scaled/linux.png" alt="Linux" title="Linux">
+						</picture>
+					</li>
+					<li class="bsd">
+						<picture>
+							<source type="image/webp" srcset="i/os/scaled/bsd.webp 1x, i/os/scaled/bsd@2x.webp 2x" />
+							<source type="image/png" srcset="i/os/scaled/bsd.png 1x, i/os/scaled/bsd@2x.png 2x" />
+							<img src="i/os/scaled/bsd.png" alt="BSD" title="BSD">
+						</picture>
+					</li>
 				</ul>
 				<p class="legacy">Also boot into <strong>legacy systems</strong> Microsoft doesn't support: MS-DOS, Windows 9x, Windows ME, and Windows 2000!
 			</div>
