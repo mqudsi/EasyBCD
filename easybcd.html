@@ -24,41 +24,7 @@
 	<meta name="description" content="EasyBCD is a software utility for Windows that lets you control and configure the BCD/BOOTMGR bootloader for Windows Vista, Windows 7, Windows 8, and Windows 10 for dual-boots." />
 	<meta name="keywords" content="easybcd, neosmart, download, windows 7, windows vista, windows 8, windows 10, bootloader, dual-boot, multi-boot, bootmgr, bcd" />
 
-	<script type="text/javascript">
-		var jQl={q:[],dq:[],ready:function(a){typeof a=="function"&&jQl.q.push(a);return jQl},unq:function(){for(var a=0;a<jQl.q.length;a++)jQl.q[a]();jQl.q=[]},bId:null,boot:function(a){if(typeof window.jQuery.fn=="undefined"){if(!jQl.bId)jQl.bId=setInterval(function(){jQl.boot(a)},25)}else{jQl.bId&&clearInterval(jQl.bId);jQl.bId=0;jQl.unqjQdep();$(jQl.unq());typeof a=="function"&&a()}},booted:function(){return jQl.bId===0},loadjQ:function(a,c){setTimeout(function(){var b=document.createElement("script"); b.src=a;document.getElementsByTagName("head")[0].appendChild(b)},1);jQl.boot(c)},loadjQdep:function(a){jQl.loadxhr(a,jQl.qdep)},qdep:function(a){if(a)typeof window.jQuery.fn!=="undefined"&&!jQl.dq.length?jQl.rs(a):jQl.dq.push(a)},unqjQdep:function(){if(typeof window.jQuery.fn=="undefined")setTimeout(jQl.unqjQdep,50);else{for(var a=0;a<jQl.dq.length;a++)jQl.rs(jQl.dq[a]);jQl.dq=[]}},rs:function(a){var c=document.createElement("script");document.getElementsByTagName("head")[0].appendChild(c);c.text= a},loadxhr:function(a,c){var b;b=jQl.getxo();b.onreadystatechange=function(){b.readyState!=4||200!=b.status||c(b.responseText,a)};try{b.open("GET",a,true);b.send("")}catch(d){}},getxo:function(){var a=false;try{a=new XMLHttpRequest}catch(c){for(var b=["MSXML2.XMLHTTP.5.0","MSXML2.XMLHTTP.4.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsoft.XMLHTTP"],d=0;d<b.length;++d){try{a=new ActiveXObject(b[d])}catch(e){continue}break}}finally{return a}}}; if(typeof window.jQuery=="undefined")var $=jQl.ready,jQuery=$;
-		jQl.loadjQ("https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js");
-
-		$(document).ready(function(){
-			$.ajaxSetup({
-				cache: true
-			});
-			$.getScript("colorbox/jquery.colorbox.js", function() {
-				$(".screenshots").colorbox({rel:'screenshots'});
-			});
-			$.getScript("j/modernizr.min.js");
-		});
-	</script>
-	<script type="text/javascript" src="j/script.js" />
-	<script type="text/javascript">
-		function ShareWindow(url) {
-			var myWindow = window.open(url,'','width=600,height=300');
-			myWindow.focus();
-		}
-	</script>
-	<script type="text/javascript">
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-277958-1']);
-	  _gaq.push(['_setDomainName', 'neosmart.net']);
-	  _gaq.push(['_setAllowLinker', true]);
-	  _gaq.push(['_setAllowHash', 'false']);
-	  _gaq.push(['_trackPageview']);
-
-	  (function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-	</script>
+	<script type="text/javascript" async="async" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 </head>
 
 <body itemscope itemtype="http://schema.org/SoftwareApplication">
@@ -79,10 +45,10 @@
 		<div class="nav">
 			<ul>
 				<li class="branding"><a href="/">NeoSmart Technologies</a>
-				<li><a href="http://neosmart.net/blog/">Blog</a>
-				<li><a href="http://neosmart.net/wiki/">User Guide</a>
-				<li><a href="http://neosmart.net/forums/">Forums</a>
-				<li><a href="http://neosmart.net/store/">Buy Now</a>
+				<li><a href="//neosmart.net/blog/">Blog</a>
+				<li><a href="//neosmart.net/wiki/">User Guide</a>
+				<li><a href="//neosmart.net/forums/">Forums</a>
+				<li><a href="//neosmart.net/store/">Buy Now</a>
 			</ul>
 		</div>
 	</div>
@@ -90,15 +56,15 @@
 	<div class="subheader">
 		<div class="nav">
 			<div class="product">
-				<a href="#">
+				<a href="">
 					<img class="icon" alt="EasyBCD icon" src="i/favicon.png" srcset="i/favicon.png 1x, i/favicon@2x.png 2x" width="24" height="24">
 					<div class="name" itemprop="name">EasyBCD</div>
 				</a>
 			</div>
 			<ul>
-				<li><a href="http://neosmart.net/Software/Changelog/1">Changelog</a>
+				<li><a href="//neosmart.net/Software/Changelog/1">Changelog</a>
 				<li><a href="javascript:$('#app-preview').click();">Screenshots</a>
-				<li><a href="http://neosmart.net/wiki/display/EBCD/EasyBCD+Documentation+Home">Documentation</a>
+				<li><a href="//neosmart.net/wiki/easybcd/">Documentation</a>
 			</ul>
 		</div>
 	</div>
@@ -125,7 +91,7 @@
 				<a class="screenshots" style="display: none;" href="i/screenshots/EasyBCD Setup.png" title="Every step of EasyBCD is meticulously designed and tailored to make it powerful to use and easy to understand." />
 			</div>
 			<div class="footer">
-				<a class="cta-button" href="http://neosmart.net/Store">Buy Now</a>
+				<a class="cta-button" href="//neosmart.net/Store">Buy Now</a>
 				<a class="cta-button" href="#comparison" id="goto-comparison">See Plans</a>
 			</div>
 		</div>
@@ -167,7 +133,7 @@
 			</div>
 
 	<ul class="social">
-		<iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fneosmart&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=35&amp;appId=255412261182477" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe>
+		
 	</ul>
 	</div>
 
@@ -225,7 +191,7 @@
 								<li>Detailed <strong>PDF instruction manual</strong></li>
 								<li>Automatic upgrades to <strong>new releases</strong></li>
 							</ul>
-							<a class="cta-button" href="http://neosmart.net/Store">Buy Now</a>
+							<a class="cta-button" href="//neosmart.net/Store">Buy Now</a>
 						</div>
 			   </li>
 					<li class="easyre solution">
@@ -237,9 +203,9 @@
 								<li>Resolve <strong>startup BSODs</strong></li>
 								<li><strong>Restore registry</strong> and settings</li>
 								<li>Clean up <strong>virus infections</strong></li>
-								<li>and <a href="https://neosmart.net/EasyRE/Features/">more advanced features</a></li>
+								<li>and <a href="//neosmart.net/EasyRE/Features/">more advanced features</a></li>
 							</ul>
-							<a class="cta-button" href="http://neosmart.net/EasyRE/">Download Now</a>
+							<a class="cta-button" href="//neosmart.net/EasyRE/">Download Now</a>
 						</div>
 			   </li>
 				</ul>
@@ -268,13 +234,55 @@
 		<div class="nav">
 			<ul>
 				<li class="copyright">&copy; 2015 <a href="/">NeoSmart Technlogies </a>
-				<li><a href="http://neosmart.net/blog/about">About</a>
-				<li><a href="http://neosmart.net/Home/Info/Privacy">Privacy</a>
-				<li><a href="http://neosmart.net/Home/Info/Contact">Contact</a>
-				<li><a href="http://neosmart.net/forums">Help</a>
-				<li><a href="http://neosmart.net/Home/Info/Refund">Refund Policy</a>
-				<li><a href="http://neosmart.net/forums/forumdisplay.php?f=9">Report a Bug</a>
-				<li><a href="http://neosmart.net/Donate">Donations</a>
+				<li><a href="//neosmart.net/blog/about">About</a>
+				<li><a href="//neosmart.net/Home/Info/Privacy">Privacy</a>
+				<li><a href="//neosmart.net/Home/Info/Contact">Contact</a>
+				<li><a href="//neosmart.net/forums">Help</a>
+				<li><a href="//neosmart.net/Home/Info/Refund">Refund Policy</a>
+				<li><a href="//neosmart.net/forums/forumdisplay.php?f=9">Report a Bug</a>
+				<li><a href="//neosmart.net/Donate">Donations</a>
 			</ul>
 		</div>
 	</div>
+
+    <!--[if lt IE 8 ]>
+    <script type="text/javascript">
+        var legacyIE = true;
+    </script>
+    <![endif]-->
+    <!--[if (gt IE 8)|!(IE)]><!-->
+    <script type="text/javascript">
+        var legacyIE = false;
+    </script>
+    <!--<![endif]-->
+    <script type="text/javascript">
+		(function(o){var K=o.$LAB,y="UseLocalXHR",z="AlwaysPreserveOrder",u="AllowDuplicates",A="CacheBust",B="BasePath",C=/^[^?#]*\//.exec(location.href)[0],D=/^\w+\:\/\/\/?[^\/]+/.exec(C)[0],i=document.head||document.getElementsByTagName("head"),L=(o.opera&&Object.prototype.toString.call(o.opera)=="[object Opera]")||("MozAppearance"in document.documentElement.style),q=document.createElement("script"),E=typeof q.preload=="boolean",r=E||(q.readyState&&q.readyState=="uninitialized"),F=!r&&q.async===true,M=!r&&!F&&!L;function G(a){return Object.prototype.toString.call(a)=="[object Function]"}function H(a){return Object.prototype.toString.call(a)=="[object Array]"}function N(a,c){var b=/^\w+\:\/\//;if(/^\/\/\/?/.test(a)){a=location.protocol+a}else if(!b.test(a)&&a.charAt(0)!="/"){a=(c||"")+a}return b.test(a)?a:((a.charAt(0)=="/"?D:C)+a)}function s(a,c){for(var b in a){if(a.hasOwnProperty(b)){c[b]=a[b]}}return c}function O(a){var c=false;for(var b=0;b<a.scripts.length;b++){if(a.scripts[b].ready&&a.scripts[b].exec_trigger){c=true;a.scripts[b].exec_trigger();a.scripts[b].exec_trigger=null}}return c}function t(a,c,b,d){a.onload=a.onreadystatechange=function(){if((a.readyState&&a.readyState!="complete"&&a.readyState!="loaded")||c[b])return;a.onload=a.onreadystatechange=null;d()}}function I(a){a.ready=a.finished=true;for(var c=0;c<a.finished_listeners.length;c++){a.finished_listeners[c]()}a.ready_listeners=[];a.finished_listeners=[]}function P(d,f,e,g,h){setTimeout(function(){var a,c=f.real_src,b;if("item"in i){if(!i[0]){setTimeout(arguments.callee,25);return}i=i[0]}a=document.createElement("script");if(f.type)a.type=f.type;if(f.charset)a.charset=f.charset;if(h){if(r){e.elem=a;if(E){a.preload=true;a.onpreload=g}else{a.onreadystatechange=function(){if(a.readyState=="loaded")g()}}a.src=c}else if(h&&c.indexOf(D)==0&&d[y]){b=new XMLHttpRequest();b.onreadystatechange=function(){if(b.readyState==4){b.onreadystatechange=function(){};e.text=b.responseText+"\n//@ sourceURL="+c;g()}};b.open("GET",c);b.send()}else{a.type="text/cache-script";t(a,e,"ready",function(){i.removeChild(a);g()});a.src=c;i.insertBefore(a,i.firstChild)}}else if(F){a.async=false;t(a,e,"finished",g);a.src=c;i.insertBefore(a,i.firstChild)}else{t(a,e,"finished",g);a.src=c;i.insertBefore(a,i.firstChild)}},0)}function J(){var l={},Q=r||M,n=[],p={},m;l[y]=true;l[z]=false;l[u]=false;l[A]=false;l[B]="";function R(a,c,b){var d;function f(){if(d!=null){d=null;I(b)}}if(p[c.src].finished)return;if(!a[u])p[c.src].finished=true;d=b.elem||document.createElement("script");if(c.type)d.type=c.type;if(c.charset)d.charset=c.charset;t(d,b,"finished",f);if(b.elem){b.elem=null}else if(b.text){d.onload=d.onreadystatechange=null;d.text=b.text}else{d.src=c.real_src}i.insertBefore(d,i.firstChild);if(b.text){f()}}function S(c,b,d,f){var e,g,h=function(){b.ready_cb(b,function(){R(c,b,e)})},j=function(){b.finished_cb(b,d)};b.src=N(b.src,c[B]);b.real_src=b.src+(c[A]?((/\?.*$/.test(b.src)?"&_":"?_")+~~(Math.random()*1E9)+"="):"");if(!p[b.src])p[b.src]={items:[],finished:false};g=p[b.src].items;if(c[u]||g.length==0){e=g[g.length]={ready:false,finished:false,ready_listeners:[h],finished_listeners:[j]};P(c,b,e,((f)?function(){e.ready=true;for(var a=0;a<e.ready_listeners.length;a++){e.ready_listeners[a]()}e.ready_listeners=[]}:function(){I(e)}),f)}else{e=g[0];if(e.finished){j()}else{e.finished_listeners.push(j)}}}function v(){var e,g=s(l,{}),h=[],j=0,w=false,k;function T(a,c){a.ready=true;a.exec_trigger=c;x()}function U(a,c){a.ready=a.finished=true;a.exec_trigger=null;for(var b=0;b<c.scripts.length;b++){if(!c.scripts[b].finished)return}c.finished=true;x()}function x(){while(j<h.length){if(G(h[j])){try{h[j++]()}catch(err){}continue}else if(!h[j].finished){if(O(h[j]))continue;break}j++}if(j==h.length){w=false;k=false}}function V(){if(!k||!k.scripts){h.push(k={scripts:[],finished:true})}}e={script:function(){for(var f=0;f<arguments.length;f++){(function(a,c){var b;if(!H(a)){c=[a]}for(var d=0;d<c.length;d++){V();a=c[d];if(G(a))a=a();if(!a)continue;if(H(a)){b=[].slice.call(a);b.unshift(d,1);[].splice.apply(c,b);d--;continue}if(typeof a=="string")a={src:a};a=s(a,{ready:false,ready_cb:T,finished:false,finished_cb:U});k.finished=false;k.scripts.push(a);S(g,a,k,(Q&&w));w=true;if(g[z])e.wait()}})(arguments[f],arguments[f])}return e},wait:function(){if(arguments.length>0){for(var a=0;a<arguments.length;a++){h.push(arguments[a])}k=h[h.length-1]}else k=false;x();return e}};return{script:e.script,wait:e.wait,setOptions:function(a){s(a,g);return e}}}m={setGlobalDefaults:function(a){s(a,l);return m},setOptions:function(){return v().setOptions.apply(null,arguments)},script:function(){return v().script.apply(null,arguments)},wait:function(){return v().wait.apply(null,arguments)},queueScript:function(){n[n.length]={type:"script",args:[].slice.call(arguments)};return m},queueWait:function(){n[n.length]={type:"wait",args:[].slice.call(arguments)};return m},runQueue:function(){var a=m,c=n.length,b=c,d;for(;--b>=0;){d=n.shift();a=a[d.type].apply(null,d.args)}return a},noConflict:function(){o.$LAB=K;return m},sandbox:function(){return J()}};return m}o.$LAB=J();(function(a,c,b){if(document.readyState==null&&document[a]){document.readyState="loading";document[a](c,b=function(){document.removeEventListener(c,b,false);document.readyState="complete"},false)}})("addEventListener","DOMContentLoaded")})(this);
+    </script>
+    <script type="text/javascript">
+    	$LAB
+    	.script(legacyIE ? "//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" : "//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js").wait()
+    	.script("j/script.js").wait(function() {
+    		var myWindow = window.open(url,'','width=600,height=300');
+			myWindow.focus();
+    	})
+    	.script("//cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.3/jquery.colorbox.js").wait(function() {
+    		$(".screenshots").colorbox({rel:'screenshots'});
+    	})
+    	.wait(function() {
+    		$("ul.social").html('<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fneosmart&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=35&amp;appId=255412261182477" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe>');
+    	})
+    </script>
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-277958-1']);
+	  _gaq.push(['_setDomainName', 'neosmart.net']);
+	  _gaq.push(['_setAllowLinker', true]);
+	  _gaq.push(['_setAllowHash', 'false']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
