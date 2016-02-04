@@ -43,7 +43,7 @@
 	<!--<![endif]-->
 </head>
 
-<body itemscope itemtype="http://schema.org/SoftwareApplication">
+<body itemscope itemtype="http://schema.org/SoftwareApplication" onload="setTimeout(loadFB);">
 	<link itemprop="image" href="i/EasyBCD.png">
 	<link itemprop="url" href="http://neosmart.net/EasyBCD/">
 	<meta itemprop="softwareApplicationCategory" content="UtilitiesApplication">
@@ -153,8 +153,8 @@
 		<div id="fb-root"></div>
 
 		<!-- script loader -->
-		<script>
-		(function() {
+		<script type="text/javascript">
+		window.loadFB = function() {
 		  var url = '//connect.facebook.net/en_US/all.js';
 		  var iframe = document.createElement('iframe');
 		  (iframe.frameElement || iframe).style.cssText = "width: 0; height: 0; border: 0";
@@ -162,12 +162,12 @@
 		  document.getElementById('fb-root').appendChild(iframe);
 		  var doc = iframe.contentWindow.document;
 		  doc.open().write('<body onload="'+
-		    'window.inDapIF = true;' +
+		    'window.inDapIF = true;' + 'alert(\'hi\');' +
 		    'var js = document.createElement(\'script\');'+
 		    'js.src = \''+ url +'\';'+
 		    'document.body.appendChild(js);">');
 		  doc.close();
-		}());
+		};
 
 		// async init once loading is done
 		window.fbAsyncInit = function() {
