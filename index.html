@@ -87,7 +87,7 @@
 			</div>
 			<ul>
 				<li><a href="//neosmart.net/Software/Changelog/1">Changelog</a>
-				<li><a href="javascript:$('#app-preview').click();">Screenshots</a>
+				<li><a href="#" onclick = "$('#app-preview').click(); return false;">Screenshots</a>
 				<li><a href="//neosmart.net/wiki/easybcd/">Documentation</a>
 			</ul>
 		</div>
@@ -229,7 +229,7 @@
 							<form id="easybcdRegister" style="display: none;" action="/Download/Register" method="POST">
 								<input type="hidden" name="id" value="1" />
 							</form>
-							<a class="cta-button" href="javascript:document.getElementById('easybcdRegister').submit();">Register</a>
+							<a class="cta-button" href="#" onclick="document.getElementById('easybcdRegister').submit(); return false;">Register</a>
 						</div>
 			   </li>
 					<li class="commercial solution">
