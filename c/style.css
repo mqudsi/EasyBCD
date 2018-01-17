@@ -16,7 +16,7 @@ strong{font-weight:bold}
 em{font-style:italic}
 a{color:#0692ea;text-decoration:none;}
 a:hover,a:focus{color:#046dae}
-body{font-size:14px;line-height:1.5;font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;color:#333;background:#f2f2f2;overflow-y:scroll;background:#26333b}
+body{font-size:14px;line-height:1.5;font-family:'Helvetica Neue','Segoe UI',Helvetica,Arial,sans-serif;color:#333;background:#f2f2f2;overflow-y:scroll;background:#26333b}
 input{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 form ul.fields{width:480px;}
 form ul.fields li.field{border-top:1px solid #fff;zoom:1;padding:1em 0;}
@@ -41,7 +41,7 @@ form ul.fields li.field input{width:320px;float:left;-webkit-box-sizing:;-moz-bo
 .subheader .nav:before,.subheader .nav:after{content:"";display:table}
 .subheader .nav:after{clear:both}
 .subheader .nav .product{width:320px;float:left;-webkit-box-sizing:;-moz-box-sizing:;box-sizing:;}
-.subheader .nav .product a{display:block;position:relative;((null)):0;((null)):0;font:bold 1.25em 'Helvetica Neue',Arial,Helvetica,sans-serif;line-height:42px;padding:0 4.2px;color:#ddd;text-shadow:rgba(0,0,0,0.75) 0 1px 0;}
+.subheader .nav .product a{display:block;position:relative;((null)):0;((null)):0;font-style:bold;font-size: 1.25em;line-height:42px;padding:0 4.2px;color:#ddd;text-shadow:rgba(0,0,0,0.75) 0 1px 0;}
 .subheader .nav .product a img{position:absolute;top:9px;left:.5em;display:block;z-index:100;width:24px}
 .subheader .nav .product a .name{padding-left:36.6px}
 .subheader .nav ul{width:640px;float:left;-webkit-box-sizing:;-moz-box-sizing:;box-sizing:;zoom:1;}
@@ -75,16 +75,16 @@ form ul.fields li.field input{width:320px;float:left;-webkit-box-sizing:;-moz-bo
 #container .section:before,#container .section:after{content:"";display:table}
 #container .section:after{clear:both}
 #container .section .header{margin-bottom:42px;padding:0 80px;}
-#container .section .header h2{font:2em/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif;color:#4d6c80;text-align:center;}
+#container .section .header h2{font-size:2em; line-height:1.5;color:#4d6c80;text-align:center;}
 #container .section .header h2 strong{font-weight:bold}
 #container .section .content{padding:0 80px}
 #container .section.intro{-webkit-border-radius:3px 3px 0 0;-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;padding:0;background:#215778 url("../i/svg/intro-bg.svg");background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #1a425b), color-stop(1, #266c97));background:-webkit-linear-gradient(top, #1a425b 0%, #266c97 100%);background:-moz-linear-gradient(top, #1a425b 0%, #266c97 100%);background:linear-gradient(top, #1a425b 0%, #266c97 100%);color:#fff;-webkit-font-smoothing:antialiased;position:relative;((null)):0;((null)):0;}
 #container .section.intro .header{padding-top:4.5em;}
-#container .section.intro .header h1{font:2.6em 'Helvetica Neue',Arial,Helvetica,sans-serif;line-height:42px;letter-spacing:-2px;margin-bottom:42px;color:#bfcfd9;text-shadow:rgba(0,0,0,0.50) 0 1px 2px;width:560px;float:left;-webkit-box-sizing:;-moz-box-sizing:;box-sizing:}
+#container .section.intro .header h1{font-size:2.6em;line-height:42px;letter-spacing:-2px;margin-bottom:42px;color:#bfcfd9;text-shadow:rgba(0,0,0,0.50) 0 1px 2px;width:560px;float:left;-webkit-box-sizing:;-moz-box-sizing:;box-sizing:}
 #container .section.intro .content{padding:0;zoom:1;color:#9fb7c6;text-shadow:rgba(0,0,0,0.30) 0 1px 0;}
 #container .section.intro .content:before,#container .section.intro .content:after{content:"";display:table}
 #container .section.intro .content:after{clear:both}
-#container .section.intro .content p.intro{font:1.5em 'Helvetica Neue',Arial,Helvetica,sans-serif;line-height:28px;width:560px;float:left;-webkit-box-sizing:;-moz-box-sizing:;box-sizing:;padding-left:80px;margin-bottom:63px}
+#container .section.intro .content p.intro{font-size:1.5em;line-height:28px;width:560px;float:left;-webkit-box-sizing:;-moz-box-sizing:;box-sizing:;padding-left:80px;margin-bottom:63px}
 #container .section.intro .content a#app-preview{display:block;}
 #container .section.intro .content a#app-preview img{position:absolute;top:30px;right:0;display:block}
 #container .section.intro .footer{zoom:1;background:rgba(0,0,0,0.20);-webkit-box-shadow:inset rgba(0,0,0,0.15) 0 1px 2px;-moz-box-shadow:inset rgba(0,0,0,0.15) 0 1px 2px;box-shadow:inset rgba(0,0,0,0.15) 0 1px 2px;padding:1.5em 80px;}
@@ -130,7 +130,7 @@ form ul.fields li.field input{width:320px;float:left;-webkit-box-sizing:;-moz-bo
 #container .section.awards .content ul li.cnet img{max-height:80px;margin-top:-10px}
 @media not all and (-webkit-min-device-pixel-ratio:0){#container .section.intro{background:#1e4e6c !important;-webkit-box-shadow:inset rgba(38,108,151,0.50) 0 0 80px;-moz-box-shadow:inset rgba(38,108,151,0.50) 0 0 80px;box-shadow:inset rgba(38,108,151,0.50) 0 0 80px}
 }.popup{position:fixed;((null)):0;((null)):0;top:0;right:0;bottom:0;left:0;background:rgba(0,0,0,0.60);opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);-webkit-transition:500ms ease-in-out opacity;-moz-transition:500ms ease-in-out opacity;transition:500ms ease-in-out opacity;z-index:-100;}
-.popup:after{content:'Preview';font:1.5em/50px 'Helvetica Neue',Arial,Helvetica,sans-serif;text-align:center;color:#fff;display:block;width:300px;height:50px;position:absolute;top:50%;left:50%;margin:-295px 0 0 -150px}
+.popup:after{content:'Preview';font-size:1.5em; line-height: 50px;text-align:center;color:#fff;display:block;width:300px;height:50px;position:absolute;top:50%;left:50%;margin:-295px 0 0 -150px}
 .popup img{display:block;width:583px;height:488px;position:absolute;top:50%;left:50%;margin:-244px 0 0 -291px;-webkit-box-shadow:rgba(0,0,0,0.75) 0 0 2em;-moz-box-shadow:rgba(0,0,0,0.75) 0 0 2em;box-shadow:rgba(0,0,0,0.75) 0 0 2em;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0)}
 .popup.visible{opacity:1;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);z-index:100;display:block;}
 .popup.visible img{opacity:1;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100)}
